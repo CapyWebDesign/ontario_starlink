@@ -88,6 +88,7 @@ a {
 }
 
 .footer_content-wrapper {
+  z-index: 1;
   flex-direction: column;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
@@ -97,6 +98,7 @@ a {
   width: 100%;
   height: auto;
   display: flex;
+  position: relative;
 }
 
 .primary-button_arrow-icon-hidden {
@@ -768,6 +770,12 @@ a {
 
 .text-oid-button.cc-black {
   color: #000;
+  font-weight: 600;
+  transition: all .2s;
+}
+
+.text-oid-button.cc-black:hover {
+  font-weight: 700;
 }
 
 .padding-global {
@@ -845,13 +853,13 @@ a {
 
 .showcase_image_container.is-2 {
   background-image: linear-gradient(0deg, #000c, #0000 10%), url('../images/20230811_192332.jpg');
-  background-position: 0 0, 50% 80%;
+  background-position: 0 0, 50% 25%;
   background-size: auto, cover;
 }
 
 .showcase_image_container.is-1 {
-  background-image: linear-gradient(0deg, #000c, #0000 10%), url('../images/20230506_171900.jpg');
-  background-position: 0 0, 0 20%;
+  background-image: linear-gradient(0deg, #000c, #0000 10%), url('../images/j-arm-lake-rosseau.jpg');
+  background-position: 0 0, 0%;
   background-size: auto, cover;
   align-items: flex-end;
 }
@@ -1138,6 +1146,7 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: 600;
+  transition: all .2s;
 }
 
 .cutsom-button:hover {
@@ -2369,6 +2378,7 @@ a {
 }
 
 .footer-image-wrapper {
+  z-index: 0;
   object-fit: contain;
   justify-content: flex-start;
   align-items: flex-end;
@@ -2420,6 +2430,14 @@ a {
 
 .afterpay-logo {
   height: 1.5rem;
+}
+
+.capy-link {
+  color: var(--white);
+}
+
+.capy-link:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 991px) {
