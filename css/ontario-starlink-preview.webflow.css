@@ -2444,13 +2444,21 @@ a {
   display: flex;
 }
 
+.social-icons.cc-footer {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
 .contact-icon {
   width: 40px;
 }
 
+.contact-icon.cc-footer {
+  width: 35px;
+}
+
 .header-icon {
   opacity: .7;
-  filter: invert();
   object-fit: contain;
   width: 100%;
   transition: opacity .8s;
@@ -3548,7 +3556,7 @@ a {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-_2644aa74-6413-da77-37da-274110d52a7e-10d52a5e {
+#w-node-afca0158-6665-7bcb-11e7-bff870860e01-10d52a5e {
   justify-self: end;
 }
 
