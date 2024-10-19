@@ -1261,13 +1261,13 @@ a {
   width: 100%;
 }
 
-.footer_contact-link-wrapper {
+.contact-link-wrapper {
   opacity: .7;
   color: #fff;
   transition: transform .5s cubic-bezier(.215, .61, .355, 1), opacity .75s cubic-bezier(.455, .03, .515, .955);
 }
 
-.footer_contact-link-wrapper:hover {
+.contact-link-wrapper:hover {
   opacity: 1;
   transform: translate(0, -.125rem);
 }
@@ -3262,7 +3262,7 @@ a {
     min-height: 120vh;
   }
 
-  .footer_contact-link-wrapper {
+  .contact-link-wrapper {
     color: #fff;
   }
 
