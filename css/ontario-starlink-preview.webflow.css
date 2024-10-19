@@ -2438,6 +2438,28 @@ a {
   text-decoration: underline;
 }
 
+.social-icons {
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  display: flex;
+}
+
+.contact-icon {
+  width: 40px;
+}
+
+.header-icon {
+  opacity: .7;
+  filter: invert();
+  object-fit: contain;
+  width: 100%;
+  transition: opacity .8s;
+}
+
+.header-icon:hover {
+  opacity: 1;
+}
+
 @media screen and (max-width: 991px) {
   .nav-menu {
     background-color: var(--trans-white);
