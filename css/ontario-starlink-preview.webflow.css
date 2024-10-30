@@ -124,7 +124,9 @@ a {
 }
 
 .page-wrapper {
+  width: 100vw;
   position: relative;
+  overflow: clip;
 }
 
 .navbar_logo-wrapper {
@@ -1429,7 +1431,6 @@ a {
   font-family: var(--body-font);
   color: var(--black);
   font-weight: 400;
-  overflow: clip;
 }
 
 .image-5 {
