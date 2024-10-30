@@ -124,7 +124,9 @@ a {
 }
 
 .page-wrapper {
+  width: 100vw;
   position: relative;
+  overflow: clip;
 }
 
 .navbar_logo-wrapper {
@@ -1429,7 +1431,6 @@ a {
   font-family: var(--body-font);
   color: var(--black);
   font-weight: 400;
-  overflow: clip;
 }
 
 .image-5 {
@@ -3225,6 +3226,10 @@ a {
     position: relative;
   }
 
+  .container-large {
+    max-width: 100%;
+  }
+
   .storytelling_subtext._30ch {
     word-break: keep-all;
     max-width: none;
@@ -3503,7 +3508,8 @@ a {
   }
 
   .project-option-heading {
-    word-break: keep-all;
+    white-space: pre-wrap;
+    max-width: 100vw;
     font-size: 3.5rem;
   }
 
