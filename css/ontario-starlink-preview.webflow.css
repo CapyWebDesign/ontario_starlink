@@ -3432,6 +3432,10 @@ a {
     max-height: 100vh;
   }
 
+  .section_hero_options.overflow-hidden {
+    height: 100vh;
+  }
+
   .install-sub-options-grid {
     grid-row-gap: 0px;
     grid-template-columns: 1fr;
@@ -3475,13 +3479,15 @@ a {
   }
 
   .nav-menu-wrapper-2 {
-    width: 50px;
+    width: 100vw;
     height: 3rem;
-    margin-right: 1rem;
+    margin-right: 0;
     padding-top: 3rem;
   }
 
   .nav-menu-2 {
+    align-items: stretch;
+    width: 100%;
     margin-top: 2px;
   }
 
