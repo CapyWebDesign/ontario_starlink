@@ -283,6 +283,7 @@ a {
 
 .inspiration_curtain-block.is-2 {
   z-index: 10;
+  -webkit-backface-visibility: visible;
   backface-visibility: visible;
   perspective-origin: 50%;
   transform-origin: 50% 100%;
@@ -723,6 +724,7 @@ a {
 
 .co-create_curtain-block.is-2 {
   z-index: 10;
+  -webkit-backface-visibility: visible;
   backface-visibility: visible;
   perspective-origin: 50%;
   transform-origin: 100%;
