@@ -6,8 +6,9 @@
   --body-font: "Open Sans", sans-serif;
   --transparent: #fff0;
   --accent: #663c17;
-  --grey: #2c2c2c;
   --trans-black: #0003;
+  --grey: #2c2c2c;
+  --leaf-red: #f44e3f;
 }
 
 .w-layout-grid {
@@ -2469,6 +2470,65 @@ a {
   opacity: 1;
 }
 
+.modal-wrapper {
+  z-index: 99;
+  background-color: var(--trans-black);
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+}
+
+.modal-floating-content {
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  height: 620px;
+  margin-top: 90px;
+  display: flex;
+  position: relative;
+}
+
+.leaf-image {
+  object-fit: contain;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  position: absolute;
+  top: -90px;
+  left: 0;
+}
+
+.leaf-text {
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+  color: var(--white);
+  text-align: center;
+  flex-flow: column;
+  width: 380px;
+  font-size: 15px;
+  display: flex;
+  position: absolute;
+}
+
+.heading-7 {
+  position: relative;
+}
+
+.leaf-heading {
+  font-family: var(--title-font);
+  font-size: 4em;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.leaf-paragraph {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 991px) {
   .nav-menu {
     background-color: var(--trans-white);
@@ -2806,6 +2866,10 @@ a {
   .project-option-heading {
     font-size: 4.5rem;
   }
+
+  .modal-wrapper {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2995,6 +3059,31 @@ a {
 
   .project-wrapper-copy, .project-wrapper-copy.cc-right {
     padding: 20px 20px 40px;
+  }
+
+  .modal-floating-content {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    background-color: var(--grey);
+    flex-flow: column;
+    width: 75%;
+    height: auto;
+    margin-top: 0;
+    padding: 24px;
+  }
+
+  .leaf-image {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 0;
+  }
+
+  .leaf-text {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    width: auto;
+    position: relative;
   }
 }
 
@@ -3532,6 +3621,14 @@ a {
   .subtext-word {
     letter-spacing: .11rem;
     font-size: .55rem;
+  }
+
+  .modal-floating-content {
+    width: 85%;
+  }
+
+  .leaf-heading {
+    font-size: 2.5em;
   }
 }
 
