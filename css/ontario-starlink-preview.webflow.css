@@ -2590,6 +2590,7 @@ a {
   background-color: var(--trans-white);
   opacity: 0;
   flex-flow: column;
+  width: 20rem;
   padding: 1rem;
   display: flex;
   position: absolute;
@@ -2610,6 +2611,7 @@ a {
 
 .dropdown-list-wrapper.is-inverted {
   background-color: var(--black);
+  height: 0;
 }
 
 .dropdown-toggle {
@@ -2633,6 +2635,7 @@ a {
 
 .nav-dropdown-wrapper.is-inverted {
   background-color: var(--transparent);
+  position: relative;
 }
 
 .cw-cookies {
