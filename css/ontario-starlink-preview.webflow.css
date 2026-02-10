@@ -2611,7 +2611,6 @@ a {
 
 .dropdown-list-wrapper.is-inverted {
   background-color: var(--black);
-  height: 0;
 }
 
 .dropdown-toggle {
