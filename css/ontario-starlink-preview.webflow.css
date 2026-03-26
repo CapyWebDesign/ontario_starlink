@@ -9,9 +9,9 @@
   --transparent: #fff0;
   --accent: #663c17;
   --trans-black: #0003;
+  --neutral-light: #cbcbcb;
   --neutral-dark: #474747;
   --neutral: #969696;
-  --neutral-light: #cbcbcb;
   --leaf-red: #f44e3f;
 }
 
@@ -1511,6 +1511,7 @@ a {
 .install-options-grid {
   grid-column-gap: 50px;
   grid-row-gap: 150px;
+  grid-template-rows: auto;
 }
 
 .section-install-options {
@@ -2295,7 +2296,7 @@ a {
 .subscription-cards-wrapper {
   background-color: #2c2c2c1a;
   padding: 40px;
-  display: none;
+  display: flex;
 }
 
 .wifi-list {
@@ -2783,6 +2784,23 @@ a {
 
 .service-area_grid {
   margin-top: 2rem;
+}
+
+.section_do-and-dont {
+  z-index: 10;
+  object-fit: cover;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 140vh;
+  min-height: auto;
+  display: block;
+  position: relative;
+}
+
+.link {
+  color: var(--neutral-light);
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 991px) {
@@ -4011,19 +4029,21 @@ a {
   place-self: end;
 }
 
-#w-node-_7dece3ed-070c-f1e0-d051-4ffb49cc2b4b-16b828c6 {
+#w-node-a3b78bd0-a9b3-742e-f4c1-0fa42b04e00f-16b828c6 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  place-self: center start;
+}
+
+#w-node-a3b78bd0-a9b3-742e-f4c1-0fa42b04e012-16b828c6 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  place-self: end;
+}
+
+#w-node-_5ec4625f-d2ae-d231-76af-8ec091da721a-16b828c6 {
   grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
-#w-node-_7dece3ed-070c-f1e0-d051-4ffb49cc2b4e-16b828c6, #w-node-_7dece3ed-070c-f1e0-d051-4ffb49cc2b57-16b828c6, #w-node-_7dece3ed-070c-f1e0-d051-4ffb49cc2b60-16b828c6 {
-  align-self: stretch;
-}
-
-#w-node-_6be6c1b7-92f8-591e-3529-55271c6e6b2c-16b828c6 {
-  grid-area: span 1 / span 2 / span 1 / span 2;
-}
-
-#w-node-_6be6c1b7-92f8-591e-3529-55271c6e6b2f-16b828c6, #w-node-_6be6c1b7-92f8-591e-3529-55271c6e6b38-16b828c6, #w-node-_6be6c1b7-92f8-591e-3529-55271c6e6b41-16b828c6 {
+#w-node-_5ec4625f-d2ae-d231-76af-8ec091da721d-16b828c6, #w-node-_5ec4625f-d2ae-d231-76af-8ec091da7228-16b828c6, #w-node-_5ec4625f-d2ae-d231-76af-8ec091da7233-16b828c6 {
   align-self: stretch;
 }
 
@@ -4080,11 +4100,11 @@ a {
     grid-area: 9 / 1 / 10 / 2;
   }
 
-  #w-node-c49f57cb-215a-6ece-c3f2-c3d30d9d214f-edd70e1b, #w-node-_7dece3ed-070c-f1e0-d051-4ffb49cc2b4b-16b828c6 {
+  #w-node-c49f57cb-215a-6ece-c3f2-c3d30d9d214f-edd70e1b {
     grid-column: span 1 / span 1;
   }
 
-  #w-node-_7dece3ed-070c-f1e0-d051-4ffb49cc2bb3-16b828c6 {
+  #w-node-b3a646b8-b8b4-e386-4b4c-8823d07892c0-16b828c6 {
     grid-area: 4 / 1 / 5 / 2;
   }
 
@@ -4147,6 +4167,14 @@ a {
   }
 
   #w-node-f3dd4157-8716-ad44-0c72-bca7dffb0a75-edd70e1b {
+    align-self: start;
+  }
+
+  #w-node-a3b78bd0-a9b3-742e-f4c1-0fa42b04e00f-16b828c6 {
+    align-self: center;
+  }
+
+  #w-node-a3b78bd0-a9b3-742e-f4c1-0fa42b04e012-16b828c6 {
     align-self: start;
   }
 
