@@ -2899,11 +2899,6 @@ a {
   margin: .5rem;
 }
 
-.form-recaptcha {
-  background-color: var(--trans-black);
-  height: 3rem;
-}
-
 .section-hourly-repairs {
   z-index: 4;
   background-color: var(--neutral-lighter);
