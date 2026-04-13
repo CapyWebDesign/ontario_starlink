@@ -3972,9 +3972,14 @@ a {
     margin-right: 0;
   }
 
-  .footer_headline-2, .install-option-heading {
+  .footer_headline-2 {
     word-break: keep-all;
     font-size: 4rem;
+  }
+
+  .install-option-heading {
+    word-break: break-all;
+    font-size: 3.5rem;
   }
 
   .hero_paragraph-d {
@@ -4338,15 +4343,7 @@ a {
     grid-area: 9 / 1 / 10 / 2;
   }
 
-  #w-node-c49f57cb-215a-6ece-c3f2-c3d30d9d214f-1e8ae4bf {
-    grid-column: span 1 / span 1;
-  }
-
-  #w-node-_94f13f6e-50d9-2e40-539c-60132aee8a5b-5d71d1ff {
-    grid-area: 9 / 1 / 10 / 2;
-  }
-
-  #w-node-c49f57cb-215a-6ece-c3f2-c3d30d9d214f-5d71d1ff {
+  #w-node-c49f57cb-215a-6ece-c3f2-c3d30d9d214f-1e8ae4bf, #w-node-c49f57cb-215a-6ece-c3f2-c3d30d9d214f-5d71d1ff {
     grid-column: span 1 / span 1;
   }
 }
