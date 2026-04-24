@@ -2342,8 +2342,8 @@ a {
 .projects-grid {
   grid-column-gap: 0px;
   grid-row-gap: 50px;
-  grid-template-rows: 100vh;
-  grid-auto-rows: 100vh;
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
 }
 
 .project-wrapper-copy {
@@ -2364,7 +2364,8 @@ a {
 
 .locations-section {
   background-color: var(--black);
-  height: 4.5rem;
+  width: 100vw;
+  height: auto;
   color: var(--white);
   flex-flow: column;
   position: relative;
@@ -2382,11 +2383,6 @@ a {
 .locations-list-wrapper {
   justify-content: space-between;
   display: flex;
-}
-
-.content-wrapper {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .location-list {
@@ -4247,7 +4243,7 @@ a {
     right: 10px;
   }
 
-  .grid-2 {
+  .locations_grid {
     grid-template-columns: 1fr;
   }
 
