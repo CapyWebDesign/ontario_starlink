@@ -3,8 +3,8 @@
   --black: black;
   --trans-white: #fffc;
   --white: white;
-  --neutral: #969696;
   --grey: #2c2c2c;
+  --neutral: #969696;
   --neutral-light: #cbcbcb;
   --body-font: "Open Sans", sans-serif;
   --transparent: #fff0;
@@ -274,7 +274,8 @@ a {
   display: flex;
 }
 
-.paragraph-3 {
+.locations_sub-heading {
+  color: var(--grey);
   letter-spacing: 1px;
   margin-top: 1rem;
   font-size: 1.2rem;
@@ -4016,7 +4017,7 @@ a {
     object-position: 0% 0%;
   }
 
-  .paragraph-3 {
+  .locations_sub-heading {
     font-size: 1rem;
   }
 
